@@ -1,12 +1,10 @@
-# DISPATCHES
+# Dispatches
 
 My personal dispatch - its a blog but cooler.
 
-Visit the [website](https://dispatches.theluqmn.com)
-
 ## About
 
-I want to share things for the internet to read and take notes from, so I will need a blog-like website deployed online - that is [Dispatches](https://dispatches.theluqmn.com). It fulfills the said objective, using Jekyll - that I customised to fit my overall theme. It is the successor to my [blog](https://blog.theluqmn.com).
+I want to share things for the internet to read and take notes from, so I will need a blog website deployed online - that is [Dispatches](https://dispatches.theluqmn.com). It fulfills the said objective, using Jekyll - that I customised to fit my overall theme. It is the successor to my [blog](https://blog.theluqmn.com).
 
 ## The Repository
 
