@@ -1,6 +1,6 @@
 # Dispatches
 
-My personal dispatch - its a blog but cooler.
+[Luqman](https://theluqmn.com)'s personal dispatch - its a blog but cooler.
 
 ## About
 
