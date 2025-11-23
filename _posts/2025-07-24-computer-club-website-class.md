@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I Taught Kids To Make Websites
-category: journal
+category: experiences
 date: 24th July 2025
 excerpt_separator: <!--more-->
 ---
