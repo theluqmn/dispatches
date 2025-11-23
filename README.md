@@ -13,9 +13,9 @@ This repository contains the source code for Dispatches, which includes everythi
 ## To-do
 
 - [x] design how this should look like
-- [ ] header
-- [ ] footer
-- [ ] layout: all
+- [x] header
+- [x] footer
+- [x] layout: all
 - [ ] layout: experiences
 - [ ] layout: projects
 - [ ] layout: coding
