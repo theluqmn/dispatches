@@ -25,9 +25,9 @@
             <h1 class="font-bold text-bluey">{{ page.title }}</h1>
 
             <div class="flex flex-row gap-2">
-                <a href="{{site.url}}" target="self" class="text-texty hover:text-white duration-300">HOME</a>
+                <a href="{{site.baseurl}}" target="self" class="text-texty hover:text-white duration-300">HOME</a>
                 <p class="text-smokey">|</p>
-                <a href="{{site.url}}/{{page.categories[0]}}" target="self" class="text-texty hover:text-white duration-300">MORE ON {{page.categories[0]}}</a>
+                <a href="{{site.baseurl}}/{{page.categories[0]}}" target="self" class="text-texty hover:text-white duration-300">MORE ON {{page.categories[0]}}</a>
                 <p class="text-smokey">|</p>
                 <p class="text-texty">{{ page.date | date: "%d %B %Y" }}</p>
             </div>
