@@ -14,7 +14,7 @@ Meet Luqman's Dispatches - the new, cooler blog.<!--more-->
 
 ## TECHNICAL
 
-As I'm building this from scratch, I took the opportunity to do it right. One and for all. At last.
+As I'm building this from scratch, I took the opportunity to do it right. Once and for all. At last.
 
 ### UTILISING JEKYLL TO ITS FULL POTENTIAL
 

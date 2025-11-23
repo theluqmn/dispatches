@@ -19,7 +19,7 @@
     <body class="p-4 flex flex-col gap-4 font-mono text-base bg-black w-full h-full">
         {% include header.html %}
 
-        <main class="flex flex-col gap-4 w-full h-full md:w-6/12 mx-auto">
+        <main class="flex flex-col w-full h-full md:w-6/12 mx-auto">
             <h1 class="font-bold text-bluey underline">{{ page.title }}</h1>
 
             <div class="flex flex-row font-bold gap-2">
@@ -31,10 +31,10 @@
             </div>
 
             <div class="
-            space-y-4
+            pt-8 pb-4 space-y-4
             text-texty
-            [&_h2]:font-bold [&_h2]:text-bluey [&_h2]:underline
-            [&_h3]:font-bold [&_h2]:text-white [&_h3]:underline
+            [&_h2]:font-bold [&_h2]:text-bluey [&_h2]:pt-4 [&_h2]:underline
+            [&_h3]:font-bold [&_h3]:text-white [&_h3]:underline
             [&_a]:underline [&_hr]:border-smokey [&_img]:outline-smokey">
                 {{ content }}
             </div>
