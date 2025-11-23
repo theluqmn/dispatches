@@ -23,7 +23,7 @@
             <h1 class="font-bold text-bluey underline">{{ page.title }}</h1>
 
             <div class="flex flex-row font-bold gap-2">
-                <a href="{{site.baseurl}}" target="self" class="text-texty hover:text-white duration-300">HOME</a>
+                <a href="{{site.baseurl}}/" target="self" class="text-texty hover:text-white duration-300">HOME</a>
                 <p class="text-smokey">|</p>
                 <a href="{{site.baseurl}}/{{page.categories[0]}}" target="self" class="text-texty hover:text-white duration-300">MORE ON {{page.categories[0] | upcase}}</a>
                 <p class="text-smokey">|</p>
@@ -34,7 +34,7 @@
             space-y-4
             text-texty
             [&_h2]:font-bold [&_h2]:text-bluey [&_h2]:underline
-            [&_h3]:font-bold [&_h3]:underline
+            [&_h3]:font-bold [&_h2]:text-white [&_h3]:underline
             [&_a]:underline [&_hr]:border-smokey [&_img]:outline-smokey">
                 {{ content }}
             </div>

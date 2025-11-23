@@ -8,7 +8,7 @@ category: projects
 date: 13th November 2025
 ---
 
-Meet Luqman's Dispatches - the new blog, but cooler.<!--more-->
+Meet Luqman's Dispatches - the new, cooler blog.<!--more-->
 
 2025 is **the year of overhauls and changes** - I've published two posts in the topic of a blog overhaul alone, I switched to a new school, and change is happening at an alarming rate. I'm not sure what caused the overhauls, perhaps I am changing too quickly to the point where my identity is corroding away? Not entirely sure. Regardless, Dispatches was developed to be a long-term solution, utilising every technical and aesthetical feature that I need and want for a polished, functional blog website.
 
