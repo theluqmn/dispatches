@@ -36,6 +36,8 @@ The new design is based on the predecessor, therefore **maintaining that technic
 
 Side-by-side comparison between Dispatches and my blog:
 
+![comparison](/assets/introducing-dispatches/comparison.png)
+
 ## BUILT FOR LONGETIVITY
 
 **Dispatches is built for longetivity**. It is structured to be easily modified without requiring major changes, or anything breaking. Everything from the name, technicalities as well as the aesthetics are built to be timeless, and modularised to the codebase level. In the upcoming few years, I will be emphasising on projects, academics, as well as personal happiness over redoing things that I have considered done a couple weeks ago. This is for the long-term.
