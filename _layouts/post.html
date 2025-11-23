@@ -22,18 +22,22 @@
         <main class="flex flex-col gap-4 w-full h-full md:w-6/12 mx-auto">
             {% include index.html %}
 
-            <p class="font-bold text-smokey">
-                <a href="{{site.url}}/" target="_self" class="text-white hover:text-white duration-300">ALL</a> |
-                <a href="{{site.url}}/experiences" target="_self" class="text-texty hover:text-white duration-300">EXPERIENCES</a> |
-                <a href="{{site.url}}/projects" target="_self" class="text-texty hover:text-white duration-300">PROJECTS</a> |
-                <a href="{{site.url}}/coding" target="_self" class="text-texty hover:text-white duration-300">CODING</a>
-            </p>
+            <h1 class="font-bold text-bluey">{{ page.title }}</h1>
+
+            <div class="flex flex-row gap-2">
+                <a href="{{site.url}}" target="self" class="text-texty hover:text-white duration-300">HOME</a>
+                <p class="text-smokey">|</p>
+                <a href="{{site.url}}/{{page.categories[0]}}" target="self" class="text-texty hover:text-white duration-300">MORE ON {{page.categories[0]}}</a>
+                <p class="text-smokey">|</p>
+                <p class="text-texty">{{ page.date | date: "%d %B %Y" }}</p>
+            </div>
 
             <div class="
+            space-y-4
             text-texty
-            [&_h2]:pt-4 [&_h2]:font-bold [&_h2]:text-bluey
-            [&_h3]:font-bold [&_h3]:text-smokey
-            [&_a]:underline [&_b]:font-bold ">
+            [&_h2]:font-bold [&_h2]:text-bluey [&_h2]:underline
+            [&_h3]:font-bold [&_h3]:underline
+            [&_a]:underline">
                 {{ content }}
             </div>
         </main>
