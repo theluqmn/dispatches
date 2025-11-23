@@ -21,6 +21,7 @@ This repository contains the source code for Dispatches, which includes everythi
 - [ ] layout: coding
 - [ ] layout: post
 - [ ] migrate all posts from the [blog](https://blog.theluqmn.com)
+- [ ] custom 404 page
 
 ## Extras
 
