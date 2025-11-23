@@ -1,9 +1,11 @@
 ---
 layout: post
+excerpt_separator: <!--more-->
+
 title: I Taught Kids To Make Websites
+permalink: /:categories/:title
 category: experiences
 date: 24th July 2025
-excerpt_separator: <!--more-->
 ---
 
 On 23rd July 2025 (yesterday), I had the opportunity to teach my juniors at school how to make a simple website using HTML. It was an activity organised by the school's computer club, which i am a part of. The objective was to introduce them to web development and spark their interest in coding.
