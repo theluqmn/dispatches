@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ page.title }} - Luqman's Dispatches</title>
+        <title>{{ page.title }} | Luqman's Dispatches</title>
 
         <!-- Open Graph -->
         <meta property="og:title" content="{{ page.title }} - Luqman's Dispatches" />
@@ -20,7 +20,7 @@
         {% include header.html %}
 
         <main class="flex flex-col w-full h-full md:w-6/12 mx-auto">
-            <h1 class="font-bold text-bluey underline">{{ page.title }}</h1>
+            <h1 class="font-bold text-bluey underline">{{ page.title | upcase }}</h1>
 
             <div class="flex flex-row font-bold gap-2">
                 <a href="{{site.baseurl}}/" target="self" class="text-texty hover:text-white duration-300">HOME</a>

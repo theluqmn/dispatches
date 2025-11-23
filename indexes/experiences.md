@@ -5,7 +5,7 @@ permalink: /experiences
 
 {% for post in site.categories.experiences %}
 
-## [{{ post.title }}]( {{ post.url | relative_url }})
+## [{{ post.title | upcase }}]( {{ post.url | relative_url }})
 
 ### [{{ post.categories[0] | upcase }}] {{ post.date | date: "%d %B %Y "}}
 

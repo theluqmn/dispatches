@@ -2,7 +2,7 @@
 layout: post
 excerpt_separator: <!--more-->
 
-title: A COOLER BLOG - INTRODUCING MY DISPATCHES
+title: A Cooler Blog - Introducing My Dispatches
 permalink: /:categories/:title
 category: projects
 date: 13th November 2025
